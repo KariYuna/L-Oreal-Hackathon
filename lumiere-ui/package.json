@@ -1,0 +1,7 @@
+{
+  "name": "lumiere-skincare-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local Qwen3 8B skincare companion with an English interface and experimental photo observations.",
+  "scripts": { "start": "node server.cjs", "check": "node --check dist/companion.js && node --check dist/profile-store.js && node --check server.cjs && node --check lib/api.cjs && node --check lib/agent.cjs && node --check lib/store.cjs && node --check lib/weather.cjs", "test": "node --test tests/*.test.cjs" }
+}

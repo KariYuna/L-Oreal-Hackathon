@@ -1,0 +1,8 @@
+Image: img-1.png
+
+Brightness: 5/10
+Redness: 2/10
+Texture: 10/10
+
+Recommendations:
+- Maintain routine
