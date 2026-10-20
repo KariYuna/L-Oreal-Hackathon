@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f6f2">
+  <meta name="description" content="Lumière — a thoughtful skincare companion. A L’Oréal-inspired hackathon interface concept.">
+  <title>Lumière — Your personal skincare companion</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="companion.css">
+  <script src="profile-store.js" defer></script>
+  <script src="companion.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <button class="nav-backdrop" aria-label="Close navigation" data-action="close-menu" hidden></button>
+  <aside class="sidebar" aria-label="Main navigation">
+    <button class="icon-button sidebar-close" data-action="close-menu" aria-label="Close navigation menu"><span data-icon="x"></span></button>
+    <a class="brand" href="#overview" aria-label="Lumière home"><span class="brand-name">L’ORÉAL</span><span class="brand-paris">P A R I S</span></a>
+    <div class="companion-brand"><span class="brand-spark">✧</span> lumi<span>è</span>re<span class="companion-sub">YOUR SKINCARE COMPANION</span></div>
+    <nav class="navigation">
+      <span class="nav-caption">MADE FOR YOU</span>
+      <a href="#overview" data-page="overview"><span data-icon="grid"></span>My overview</a>
+      <a href="#advisor" data-page="advisor"><span data-icon="spark"></span>Beauty advisor<span class="nav-dot"></span></a>
+      <a href="#checkin" data-page="checkin"><span data-icon="scan"></span>Skin check-in</a>
+      <a href="#journey" data-page="journey"><span data-icon="chart"></span>My skin journey</a>
+      <a href="#shelf" data-page="shelf"><span data-icon="bottle"></span>My product shelf</a>
+      <a href="#weather" data-page="weather"><span data-icon="sun"></span>By the window</a>
+    </nav>
+    <div class="sidebar-bottom">
+      <div class="small-manifesto"><span>Good skin days start with</span><em>understanding you.</em><span class="manifesto-line"></span></div>
+      <a class="privacy-link" href="#profile"><span data-icon="shield"></span>Your privacy, your choice<span data-icon="chevron"></span></a>
+      <a class="profile-link" href="#profile" data-page="profile"><span class="avatar" data-profile-initial>J</span><span><strong data-profile-name>Jamie Chan</strong><small>Your personal profile</small></span><span data-icon="chevron"></span></a>
+      <span class="concept-label">HACKATHON CONCEPT · NOT AN OFFICIAL APP</span>
+    </div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <div class="breadcrumb"><button class="icon-button menu-toggle" data-action="menu" aria-label="Open navigation"><span data-icon="menu"></span></button><span>Your space</span><span class="breadcrumb-slash">/</span><strong id="page-label">My overview</strong></div>
+      <div class="topbar-actions"><label class="topbar-language"><span>Agent language</span><select data-language-select aria-label="Agent language"><option value="en">English</option><option value="zh-TW">繁體中文</option><option value="zh-CN">简体中文</option><option value="ja">日本語</option></select></label><span class="prototype-badge" id="model-status">Checking local Qwen…</span><button class="icon-button notification-button" data-action="notifications" aria-label="View reminders"><span data-icon="bell"></span><i hidden></i></button><a href="#profile" class="avatar avatar-small" aria-label="Open your profile" data-profile-initial>J</a></div>
+    </header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="page-footer"><span>Your pace. Your skin. Your space.</span><span>Local companion · Educational guidance, not a diagnosis</span></footer>
+  </div>
+  <dialog id="detail-dialog" aria-labelledby="dialog-title"><button class="icon-button dialog-close" data-action="close-dialog" aria-label="Close dialog"><span data-icon="x"></span></button><div id="dialog-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

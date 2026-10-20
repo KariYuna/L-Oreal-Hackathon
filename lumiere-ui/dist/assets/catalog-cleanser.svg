@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 220" role="img" aria-label="Illustrative cleanser bottle">
+<rect width="240" height="220" rx="18" fill="#f1eee7"/>
+<ellipse cx="120" cy="184" rx="55" ry="10" fill="#d7d1c5" opacity=".7"/>
+<path d="M108 37h20v27h-20zM114 32h58v7h-58z" fill="#e4e8e5" stroke="#aab6b0"/>
+<path d="M102 63h36l16 18v97q0 7-7 7H93q-7 0-7-7V81Z" fill="#fbfbf8" stroke="#c5c8c2" stroke-width="2"/>
+<rect x="94" y="105" width="52" height="55" fill="#e9f0eb"/>
+<rect x="94" y="105" width="52" height="5" fill="#6b9c92"/>
+<text x="120" y="129" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#32695e">CeraVe</text>
+<text x="120" y="143" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#64736f">HYDRATING CLEANSER</text>
+<text x="120" y="201" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#8b857c">ILLUSTRATIVE IMAGE</text>
+</svg>

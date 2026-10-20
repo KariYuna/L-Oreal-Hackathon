@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 220" role="img" aria-label="Illustrative moisturizer jar">
+<rect width="240" height="220" rx="18" fill="#f1eee7"/>
+<ellipse cx="120" cy="181" rx="69" ry="12" fill="#d7d1c5" opacity=".7"/>
+<rect x="66" y="71" width="108" height="21" rx="6" fill="#e4e4df" stroke="#adb3af"/>
+<path d="M62 91h116l-7 79q-2 14-17 14H86q-15 0-17-14Z" fill="#fafaf7" stroke="#c5c8c2" stroke-width="2"/>
+<rect x="76" y="112" width="88" height="48" rx="2" fill="#e8efea"/>
+<rect x="76" y="112" width="88" height="5" fill="#6b9c92"/>
+<text x="120" y="136" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#32695e">CeraVe</text>
+<text x="120" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#64736f">MOISTURIZING CREAM</text>
+<text x="120" y="201" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#8b857c">ILLUSTRATIVE IMAGE</text>
+</svg>
