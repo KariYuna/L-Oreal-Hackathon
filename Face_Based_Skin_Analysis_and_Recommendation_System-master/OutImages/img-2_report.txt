@@ -1,9 +1,0 @@
-Image: img-2.jpg
-
-Brightness: 7/10
-Redness: 5/10
-Texture: 10/10
-
-Recommendations:
-- Anti-acne facewash
-- Niacinamide serum
